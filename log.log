@@ -1,0 +1,113 @@
+2020-10-10 16:06:29 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:06:29 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:06:29 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:06:29 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:06:29 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:06:29 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:06:29 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:06:29 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:06:29 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:06:29 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:50:02 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.itcast.cn/> (referer: None)
+Traceback (most recent call last):
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\utils\defer.py", line 117, in iter_errback
+    yield next(it)
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\utils\python.py", line 345, in __next__
+    return next(self.data)
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\utils\python.py", line 345, in __next__
+    return next(self.data)
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 338, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python_charm\xicidailiSpider\xicidailiSpider\spiders\itcast.py", line 31, in parse
+    some = response.xpath('//li/div[@class=main_bot]/h2/span/text()')[0]
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\parsel\selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2020-10-10 16:50:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.itcast.cn/> (referer: None)
+Traceback (most recent call last):
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\utils\defer.py", line 117, in iter_errback
+    yield next(it)
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\utils\python.py", line 345, in __next__
+    return next(self.data)
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\utils\python.py", line 345, in __next__
+    return next(self.data)
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 338, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python_charm\xicidailiSpider\xicidailiSpider\spiders\itcast.py", line 31, in parse
+    some = response.xpath('//li/div[@class=main_bot]/h2/span/text()')[0]
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\parsel\selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2020-10-10 16:51:17 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:51:17 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:51:17 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:51:17 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:51:17 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:51:17 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:51:17 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:51:17 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:51:17 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:51:17 [xicidailiSpider.spiders.zhihu] WARNING: {'hello': 'world', 'come_from': 'zhihu'}
+2020-10-10 16:52:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.itcast.cn/> (referer: None)
+Traceback (most recent call last):
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\utils\defer.py", line 117, in iter_errback
+    yield next(it)
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\utils\python.py", line 345, in __next__
+    return next(self.data)
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\utils\python.py", line 345, in __next__
+    return next(self.data)
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 338, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\python_charm\xicidailiSpider\xicidailiSpider\spiders\itcast.py", line 31, in parse
+    some = response.xpath('//li/div[@class=main_bot]/h2/span/text()')[0]
+  File "c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\parsel\selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
